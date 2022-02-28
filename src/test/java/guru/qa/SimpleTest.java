@@ -20,4 +20,9 @@ public class SimpleTest {
     void assertFailAnotherTest() {
         fail("another fail!");
     }
+
+    @Test
+    void assertFailTest() {
+        fail();
+    }
 }
